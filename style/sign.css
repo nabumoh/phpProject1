@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+body {
+  background-image: url(../img/italy-autumn-forest.jpg);
+  min-height: 100vh;
+  /* max-width: 100%; */
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: fill;
+  font-family: monospace;
+  text-align: center;
+  color: white;
+}
+.signIn-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30rem auto 0 auto;
+    gap: 20px;
+    width: 40%;
+    border-radius: 15px;
+    padding: 3em;
+    background: rgba(92, 90, 90, 0.856);
+}
+.title-label{
+    font-size: 3rem;
+}
+/* label titles */
+div label{
+    font-size: 2rem;
+}
+/* label inside-text */
+div input{
+    font-size: 1.4rem;
+    padding: 4px;
+    border-radius: 15px;
+}
+#submit{
+    font-size: 20px;
+    padding: 4px 10px;
+    border-radius: 15px;
+}
+footer {
+  caption-side: bottom;
+  text-align: center;
+  text-shadow: 5px 4px 5px black;
+  font-size: 2rem;
+}
+/* smartphones relevance */
+@media (max-width: 600px) {
+  :root {
+    font-size: 30%;
+  }
+
+  li {
+    font-size: 70%;
+  }
+}
